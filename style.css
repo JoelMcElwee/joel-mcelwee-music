@@ -1,21 +1,38 @@
 header {
   height: 300px;
 }
+
 body {
   background-color: white;
 }
+
 p {
   font-family: 'Roboto', sans-serif;
-  color: white;
 }
+
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Thin, sans-serif;
   font-size: 100px;
   color: black;
   text-align: center;
 }
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
 .link-bar {
-  font-family: 'Roboto-thin', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   text-align: center;
 }
@@ -23,31 +40,58 @@ h1 {
 ul {
   padding: 10px;
 }
-li {
-  display: inline;
-  padding: 0px 30px 0px 30px;
-}
 
+li {
+  font-family: 'Roboto', sans-serif;
+  display: inline;
+  padding: 0 30px 0 30px;
+}
 
 a {
   color: black;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 a:hover {
-  color: darkred;
+  color: #ded5f0;
 }
 
 .portrait {
-  background: url("joel-portrait.png");
-  background-size: cover;
-  max-width: 1000px;
-  height: 1500px;
   margin: 0 auto;
 }
 
 .navybar {
-  font-family: 'Roboto-thin', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.album {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.album-link {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.album-copy {
+  line-height: 1;
+  text-align: center;
+}
+
+.spacer {
+  height: 1px;
+  margin: 10px;
+  background-color: lightgray;
 }
